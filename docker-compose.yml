@@ -1,0 +1,16 @@
+services:
+  web:
+    image: ghcr.io/laboratoire-sion/laboratoiresion-training-comm-${BRANCH_NAME}:latest
+    container_name: laboratoiresion-training-comm-${BRANCH_NAME}
+    restart: always
+    ports:
+      - "9000:3000" # Next.js exposed on 9000 internally
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+    networks:
+      - webnet
+
+networks:
+  webnet:
+    driver: bridge
