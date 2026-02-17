@@ -385,7 +385,7 @@ export const modules: ModuleProps[] = [
         tp: "Chaque commercial passe 3 simulations de 15 minutes avec débriefing immédiat"
       }
     ],
-    facilitateurs: [11, 14, 15]
+    facilitateurs: [11, 15]
   },
   {
     semaine: 7,
@@ -565,7 +565,7 @@ export const facilitateurs = [
   {
     id: 6,
     nom: "Dr. Ngouana",
-    titre: "PDG",
+    titre: "Directeur Commercial et Marketing",
     slug: "dr-ngouana",
     modules: [2, 3, 8]
   },
@@ -586,34 +586,30 @@ export const facilitateurs = [
   {
     id: 10,
     nom: "MME TCHAMALEU STELLE",
+    titre: "Responsable Centre",
     slug: "mme-tchamaleu-stelle",
     modules: [4, 7]
   },
   {
     id: 11,
     nom: "M. TASONDOCK DURIN",
+    titre: "Responsable SI et digital",
     slug: "m-tasondock-durin",
     modules: [5, 6, 8]
   },
   {
     id: 12,
     nom: "M. NJIKE ACHILLE",
+    titre: "Commercial",
     slug: "m-njike-achille",
     modules: [5]
   },
   {
     id: 13,
     nom: "MME BOUCHE LANCE",
-    titre: "Commerciale, Superviseur Région Du Centre",
+    titre: "Superviseur Région Du Centre",
     slug: "mme-bouche-lance",
     modules: [5]
-  },
-  {
-    id: 14,
-    nom: "M. AMOUR NDONGONLA",
-    titre: "Commerciale",
-    slug: "m-amour-ndongonla",
-    modules: [6]
   },
   {
     id: 15,
